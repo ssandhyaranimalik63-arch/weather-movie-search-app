@@ -1,0 +1,152 @@
+/* Basic Website Design */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4ff;
+    margin: 0;
+    color: #333;
+}
+
+/* Header Design */
+
+header {
+    background-color: #263b80;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Main Section */
+
+main {
+    text-align: center;
+    padding: 30px;
+}
+
+/* App Cards */
+
+.app-card {
+    background-color: white;
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px lightgray;
+}
+
+/* Input Box */
+
+input {
+    padding: 12px;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+/* Buttons */
+
+button {
+    background-color: #263b80;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4059ad;
+}
+
+/* Links */
+
+a {
+    background-color: #263b80;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* Movie Poster */
+
+img {
+    max-width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Result Section */
+
+#weatherResult,
+#movieResult {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 450px;
+    border-radius: 12px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #555;
+}
+.weather-card {
+    background-color: #e0f2ff;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px lightgray;
+}
+
+.weather-card h1 {
+    font-size: 35px;
+    color: #263b80;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* Mobile Responsive Design */
+
+@media screen and (max-width: 600px) {
+
+    main {
+        padding: 10px;
+    }
+
+    .app-card {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    button {
+        width: auto;
+        margin: 8px;
+    }
+
+    .weather-card {
+        margin: 10px;
+    }
+
+    .weather-card h1 {
+        font-size: 28px;
+    }
+
+    #movieResult,
+    #weatherResult {
+        width: auto;
+        margin: 10px;
+    }
+}
