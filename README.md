@@ -50,5 +50,7 @@ How to Run
 4. Select Weather App or Movie Search App.
 
 Developed By
+Sandhyarani Malik
+Btech cse student 
 
 BTech CSE Student
