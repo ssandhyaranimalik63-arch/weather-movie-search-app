@@ -7,7 +7,7 @@ async function searchMovie() {
         return;
     }
 
-    let apiKey = "6556eee0";
+    let apiKey = ".....";
 
     let url = "https://www.omdbapi.com/?apikey="
         + apiKey + "&t=" + encodeURIComponent(movieName);
